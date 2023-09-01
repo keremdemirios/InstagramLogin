@@ -9,11 +9,43 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK : UI Elements
+    lazy var instagramLoginButton:UIButton = {
+        let instagramLoginButton = UIButton()
+        instagramLoginButton.translatesAutoresizingMaskIntoConstraints = false
+        instagramLoginButton.addTarget(self, action: #selector(instagmLoginTapped), for: .touchUpInside)
+        instagramLoginButton.setTitle("Login with Instagram", for: .normal)
+        instagramLoginButton.backgroundColor = .systemPink
+        instagramLoginButton.layer.cornerRadius = 12
+        return instagramLoginButton
+    }()
+    // MARK : Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = .systemBackground
+        configure()
+        
     }
-
-
+    
+    // MARK : Configure
+    private func configure(){
+        setupUI()
+    }
+    // MARK : Setup UI
+    private func setupUI(){
+        view.addSubview(instagramLoginButton)
+        NSLayoutConstraint.activate([
+            instagramLoginButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            instagramLoginButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            instagramLoginButton.widthAnchor.constraint(equalToConstant: 200),
+            instagramLoginButton.heightAnchor.constraint(equalToConstant: 40)
+        ])
+    }
+    // MARK : Functions
+    
+    // MARK : Actions
+    @objc func instagmLoginTapped(){
+        print("Instagram Login Tapped")
+    }
 }
 
