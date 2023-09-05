@@ -85,7 +85,6 @@
 				0AEBAE524AAE28BDBBAFAE09 /* Pods-Instagram Login.debug.xcconfig */,
 				5505811C8958C01777BECB3C /* Pods-Instagram Login.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

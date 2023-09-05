@@ -40,13 +40,13 @@
 		56481D7D9B31BB82418667CB4618061C /* InstagramLoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramLoginViewController.swift; path = InstagramLogin/Classes/InstagramLoginViewController.swift; sourceTree = "<group>"; };
 		56D4BF5616BE713A1D4AD29ABA672FDE /* Pods-Instagram Login */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Instagram Login"; path = Pods_Instagram_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5983EC713B6B0DA26C76D34306414313 /* Pods-Instagram Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Instagram Login.release.xcconfig"; sourceTree = "<group>"; };
-		71E6FF95EB0ED9B3368D2AABD8EEF9D3 /* InstagramLogin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InstagramLogin; path = InstagramLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E6FF95EB0ED9B3368D2AABD8EEF9D3 /* InstagramLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InstagramLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		733409EC0F56D227063E31339E7295E3 /* Pods-Instagram Login-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Instagram Login-umbrella.h"; sourceTree = "<group>"; };
 		77D11C905742E7EB29C934BA9163AA40 /* InstagramScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramScope.swift; path = InstagramLogin/Classes/InstagramScope.swift; sourceTree = "<group>"; };
 		91E51CAAD30C6D047FE5E82F6958B83D /* InstagramLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstagramLogin.release.xcconfig; sourceTree = "<group>"; };
 		9520267C12FE339F25ADCAF707518FD6 /* InstagramLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstagramLogin-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0A14D32474BB5387C0BD2719D14ACC1 /* InstagramLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstagramLogin-prefix.pch"; sourceTree = "<group>"; };
 		A66FAC2F5F2511FE06893AAB3D01B134 /* Pods-Instagram Login.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Instagram Login.modulemap"; sourceTree = "<group>"; };
 		BB847F1DCCC47482434B1F7AF07D6F96 /* Pods-Instagram Login-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Instagram Login-dummy.m"; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		ED2CDC5E3D1F6F8F23BDC5463C0FE733 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71E6FF95EB0ED9B3368D2AABD8EEF9D3 /* InstagramLogin */,
+				71E6FF95EB0ED9B3368D2AABD8EEF9D3 /* InstagramLogin.framework */,
 				56D4BF5616BE713A1D4AD29ABA672FDE /* Pods-Instagram Login */,
 			);
 			name = Products;
@@ -169,7 +169,6 @@
 				77D11C905742E7EB29C934BA9163AA40 /* InstagramScope.swift */,
 				094F086AAA6E5A936BAC467A516024B7 /* Support Files */,
 			);
-			name = InstagramLogin;
 			path = InstagramLogin;
 			sourceTree = "<group>";
 		};
@@ -210,7 +209,7 @@
 			);
 			name = InstagramLogin;
 			productName = InstagramLogin;
-			productReference = 71E6FF95EB0ED9B3368D2AABD8EEF9D3 /* InstagramLogin */;
+			productReference = 71E6FF95EB0ED9B3368D2AABD8EEF9D3 /* InstagramLogin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9F27D0D3E08A586246B80511C4A17C73 /* Pods-Instagram Login */ = {
@@ -239,7 +238,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1420;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -325,7 +324,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/InstagramLogin/InstagramLogin-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/InstagramLogin/InstagramLogin-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +359,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/InstagramLogin/InstagramLogin-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/InstagramLogin/InstagramLogin-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -414,6 +413,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -480,6 +480,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

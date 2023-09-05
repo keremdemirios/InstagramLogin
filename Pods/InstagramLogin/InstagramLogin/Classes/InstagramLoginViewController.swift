@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-public protocol InstagramLoginViewControllerDelegate: class {
+public protocol InstagramLoginViewControllerDelegate: AnyObject {
     func instagramLoginDidFinish(accessToken: String?, error: InstagramError?)
 }
 
