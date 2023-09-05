@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         instagramLoginButton.translatesAutoresizingMaskIntoConstraints = false
         instagramLoginButton.addTarget(self, action: #selector(instagmLoginTapped), for: .touchUpInside)
         instagramLoginButton.setTitle("Login with Instagram", for: .normal)
-        instagramLoginButton.backgroundColor = .blue
+        instagramLoginButton.backgroundColor = .systemPink
         instagramLoginButton.layer.cornerRadius = 12
         return instagramLoginButton
     }()
