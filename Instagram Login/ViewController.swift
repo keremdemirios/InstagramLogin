@@ -1,4 +1,4 @@
-//
+// TO DO : Youtubedaki videolara göz at.
 //  ViewController.swift
 //  Instagram Login
 //
